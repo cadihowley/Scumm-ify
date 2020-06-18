@@ -6,7 +6,7 @@
 2. To create a documentation portal using a static-site generator such as Docusaurus or ReadtheDocs.
 3. To future-proof end user documentation by creating templates and detailed how-to instructions for future open source contributors.
 
-## Areas of Focus
+## Areas of focus
 
 1. New users need a comprehensive guide for installing ScummVM on any of the supported platforms, especially in cases where the install is not intuitive, or where the user may not have a strong technical base. 
 
@@ -59,7 +59,7 @@ Home Page
 
 ````
 
-## Plan of Attack
+## Plan of attack
 
 I propose to start by creating a template for the 'Installing ScummVM' pages, as that will be the easiest way for me to get the information I require from port maintainers/developers (especially where this information is scant or does not exist). I will pre-fill any information I already have from existing documentation, which can then be checked for completeness, accuracy, and currency, or added to as necessary.
 
@@ -71,9 +71,9 @@ In the spirit of collaboration and subject to approval from the mentor(s), I wou
 
 I suggest using a style guide (such as the Google developer documentation style guide) to ensure consistency for this body of work, and all documentation moving forward.
 
-## Proposed Timeline
+## Proposed timeline
 
-### Community Bonding
+### Community bonding
 
 August 17 - September 13, 2020
 
@@ -179,7 +179,7 @@ November 23 - November 30
 - Finalize any outstanding items and officially launch the portal!
 - Once the portal is launched, remove redundant information from other sources in consultation with the mentor(s).
 
-## Writing Samples
+## Writing samples
 
 This prototype documentation portal shows how I intend to complete this project if I am selected. Its secondary purpose is to serve as a sample of my writing ability. 
 
