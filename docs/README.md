@@ -11,7 +11,7 @@
 1. New users need a comprehensive guide for installing ScummVM on any of the supported platforms, especially in cases where the install is not intuitive, or where the user may not have a strong technical base. 
 
 The installation page should cover the following:
-- Any system requirements/pre-requisites.
+- Any system requirements/prerequisites.
 - How to download the appropriate version of ScummVM.
 - How to install ScummVM.
 - How to load games onto the chosen platform, especially where it is not the platform the game was designed for.
