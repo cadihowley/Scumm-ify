@@ -10,16 +10,17 @@
 
 1. New users need a comprehensive guide for installing ScummVM on any of the supported platforms, especially in cases where the install is not intuitive, or where the user may not have a strong technical base. 
 
-- The installation page should cover the following:
-  - Any system requirements/pre-requisites.
-  - How to download the appropriate version of ScummVM.
-  - How to install ScummVM.
-  - How to load games onto the chosen platform, especially where it is not the platform the game was designed for.
-  - How to launch ScummVM, add a game, and launch a game.
+The installation page should cover the following:
+- Any system requirements/pre-requisites.
+- How to download the appropriate version of ScummVM.
+- How to install ScummVM.
+- How to load games onto the chosen platform, especially where it is not the platform the game was designed for.
+- How to launch ScummVM, add a game, and launch a game.
 
-- Where possible, I will use screenshots, gifs, and other visual aids to enhance understanding.  
+Where possible, I will use screenshots, gifs, and other visual aids to enhance understanding.  
 
 2. Existing users need reference documents that explain how to use ScummVM.
+
 The reference documents should cover the following:
 
 - The Launcher interface; What each window and tab looks like as well how they function.
