@@ -2,75 +2,133 @@
 
 ## Objectives
 
-1. To produce high-quality end user documentation by consolidating large amounts of information from disparate sources and re-writing information for clarity, consistency, and completeness. Documentation should be easy to understand for beginners, without being patronizing to tech-savvy users. 
-2. To create a documentation portal using a static-site generator such as Docusaurus or ReadtheDocs.
-3. To future-proof end user documentation by creating templates and detailed how-to instructions for future open source contributors.
 
-## Areas of focus
+1. To produce high-quality, versioned end user documentation by consolidating large
+   amounts of information from disparate sources and re-writing
+   information for clarity, consistency, and completeness. Documentation
+   should be easy to understand for beginners, without being patronizing
+   to tech-savvy users.
+2. To create a documentation portal using a static-site generator.
+3. To future-proof end user documentation by creating templates and
+   detailed how-to instructions for future open source contributors.
 
-1. New users need a comprehensive guide for installing ScummVM on any of the supported platforms, especially in cases where the install is not intuitive, or where the user may not have a strong technical base. 
+## The current situation
 
-The installation page should cover the following:
-- Any system requirements/prerequisites.
-- How to download the appropriate version of ScummVM.
-- How to install ScummVM.
-- How to load games onto the chosen platform, especially where it is not the platform the game was designed for.
-- How to launch ScummVM, add a game, and launch a game.
+-  The available ScummVM documentation is spread across multiple sources. 
+-  Information is hard to find and often duplicated; it's easy to get lost in obscure pages. 
+-  It's hard to know what information is current, and what is out of date. 
+-  Some information is missing or incomplete.
 
-Where possible, I will use screenshots, gifs, and other visual aids to enhance understanding.  
+## Fixing the problem
 
-2. Existing users need reference documents that explain how to use ScummVM.
-
-The reference documents should cover the following:
-
-- The Launcher interface; What each window and tab looks like as well how they function.
-- An explanation of the available settings, both global and game-specific. 
-- Keyboard shortcuts/hotkeys.
-
-3. Advanced users need additional behind-the-scenes options to tweak how their games run, including how to report any bugs.
-
-## Suggested documentation structure
-
-````
-Home Page
-|-- Installing ScummVM
-|   |-- Nintendo 3DS
-|   |-- AmigaOS
-|   |-- Android
-|   |-- (every)
-|   |-- (common)
-|   |-- (supported)
-|   `-- (platform)
-|-- Using ScummVM
-|   |-- The Launcher
-|   |-- Global settings
-|   |-- Game settings
-|   `-- Keyboard shortcuts
-|-- Advanced options
-|   |-- Cloud and LAN
-|   |-- Control Mapping
-|   |-- Configuration
-|   |-- Command line options
-|   |-- Graphics
-|   `-- Music and sound
-`-- Help
-    |-- FAQ
-    |-- Contacts
-    `-- Reporting a bug
+ 
+### Suggested documentation structure
 
 ````
 
-## Plan of attack
+   Landing Page
+   |-- Getting Started
+   |   `-- Quick start guide
+   |-- Installing ScummVM
+   |   |-- Nintendo 3DS
+   |   |-- AmigaOS
+   |   |-- Android
+   |   |-- (every)
+   |   |-- (common)
+   |   |-- (supported)
+   |   `-- (platform)
+   |-- Using ScummVM
+   |   |-- The Launcher
+   |   |-- Global settings
+   |   |-- Game settings
+   |   `-- Keyboard shortcuts
+   |-- Advanced options
+   |   |-- Cloud and LAN
+   |   |-- Control Mapping
+   |   |-- Configuration
+   |   |-- Command line options
+   |   |-- Graphics
+   |   `-- Music and sound
+   |-- Help
+   |   |-- FAQ
+   |   |-- Contacts
+   |   |-- Known problems
+   |   `-- Reporting a bug
+   `-- Release Notes
+````
 
-I propose to start by creating a template for the 'Installing ScummVM' pages, as that will be the easiest way for me to get the information I require from port maintainers/developers (especially where this information is scant or does not exist). I will pre-fill any information I already have from existing documentation, which can then be checked for completeness, accuracy, and currency, or added to as necessary.
+**Getting started**
 
-Next I will comb the existing documentation; readme, wiki and website. As I go, I will re-write and add to each section as required and pull all the information into the new portal. I will also make note of what information is pulled from where, to ensure that once the portal is live there are no double-ups, contradictions, or other anomalies.
+New users often look for a quick start guide to get going as quickly as possible. While the install of ScummVM can be complex on some platforms, installing it onto a computer is not. 
 
-Throughout, I will liaise with the mentor(s), developers, port maintainers, and any other subject matter experts to source any missing information, as well as ensuring each page is as up-to-date and comprehensive as possible.  
+The quickstart guide should cover the following:
 
-In the spirit of collaboration and subject to approval from the mentor(s), I would like to have the work-in-progress portal accessible to the ScummVM community throughout the writing process, to receive real-time feedback and ensure nothing is missed along the way.
+ - How to install ScummVM onto Windows, Mac and Linux. 
+ - How to load, add and launch a game. 
 
-I suggest using a style guide (such as the Google developer documentation style guide) to ensure consistency for this body of work, and all documentation moving forward.
+**Installing ScummVM**
+
+In cases where the install is not intuitive, or where the user may not have a strong technical base, the user needs a comprehensive guide for installing ScummVM on any of the supported platforms.
+
+Each comprehensive installation page should cover the following:
+
+  - Any system requirements/prerequisites. 
+  - How to download the appropriate version of ScummVM. 
+  - How to install ScummVM. 
+  - How to load games onto the chose platform, especially where it is not the platform the game was designed for. 
+  - How to launch ScummVM, add a game, and launch a game.
+
+**Using ScummVM**
+
+Users need reference documents that explain how to use ScummVM.
+
+The reference documents should cover the following: 
+
+ -  The Launcher interface; what each window and tab looks like as well as how they function.
+ -  An explanation of the available settings, both global and game-specific.
+ -  Keyboard shortcuts/hotkeys.
+
+**Advanced options**
+
+Advanced users need additional, more technical information about the options available to them for tweaking how their games run.
+
+**Release notes**
+
+While our documentation will be versioned, having a Release Notes section may be     helpful to provide a summary of changes in the latest release. This may include some areas which are currently outside the scope of this documentation, such as newly supported games or information about new engines.  
+
+
+
+### Plan of attack
+
+I propose to start by creating a template for the **Installing ScummVM**
+pages, as that will be the easiest way for me to get the information I
+require from port maintainers/developers (especially where this
+information is scant or does not exist). I will pre-fill any information
+I already have from existing documentation, which can then be checked
+for completeness, accuracy, and currency, or added to as necessary.
+
+Next I will comb the existing documentation; README, wiki and website.
+As I go, I will re-write and add to each section as required and pull
+all the information into the new portal. I will also make note of what
+information is pulled from where, to ensure that once the portal is live
+there are no double-ups, contradictions, or other anomalies.
+
+Throughout, I will liaise with the mentor(s), developers, port
+maintainers, and any other subject matter experts to source any missing
+information, as well as ensuring each page is as up-to-date and
+comprehensive as possible.
+
+In the spirit of collaboration and subject to approval from the
+mentor(s), I would like to have the work-in-progress portal accessible
+to the ScummVM community throughout the writing process, to receive
+real-time feedback and ensure nothing is missed along the way.
+
+I suggest using a style guide, such as the Google developer
+documentation style guide, to ensure consistency for this body of work
+and for all documentation moving forward. 
+
+Wherever possible, I will use screenshots, gifs, and other visual aids to enhance understanding.
+
 
 ## Proposed timeline
 
