@@ -1,5 +1,8 @@
 GSOD
-* [Proposal](/)
+* [Proposal](proposal.md)
+
+Getting started 
+* [Quickstart guide](#)
 
 Installing ScummVM
 * [Raspberry Pi](installation/raspberrypi.md)
