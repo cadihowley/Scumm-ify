@@ -1,7 +1,5 @@
 # Raspberry Pi 4
 
-Test deployment
-
 ## System requirements
 
 - Raspberry Pi running Raspberry Pi OS
